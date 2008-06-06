@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>1</version>
+    </parent>
+
+    <groupId>org.apache.servicemix</groupId>
+    <artifactId>servicemix-pom</artifactId>
+    <packaging>pom</packaging>
+    <name>ServiceMix POM</name>
+    <version>1.0-SNAPSHOT</version>
+
+    <description>
+    This pom provides project information that is common to all ServiceMix branches.
+    </description>
+
+    <url>http://servicemix.apache.org/</url>
+    <inceptionYear>2005</inceptionYear>
+
+    <issueManagement>
+        <system>jira</system>
+        <url>http://issues.apache.org/activemq/browse/SM</url>
+    </issueManagement>
+
+    <mailingLists>
+        <mailingList>
+            <name>ServiceMix Developer List</name>
+            <subscribe>servicemix-dev-subscribe@geronimo.apache.org</subscribe>
+            <unsubscribe>servicemix-dev-unsubscribe@geronimo.apache.org</unsubscribe>
+            <post>servicemix-dev@geronimo.apache.org</post>
+            <archive>http://www.nabble.com/ServiceMix---Dev-f12051.html</archive>
+            <otherArchives>
+                <otherArchive>http://dir.gmane.org/gmane.comp.java.servicemix.devel</otherArchive>
+                <otherArchive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-dev/</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>ServiceMix User List</name>
+            <subscribe>servicemix-users-subscribe@geronimo.apache.org</subscribe>
+            <unsubscribe>servicemix-users-unsubscribe@geronimo.apache.org</unsubscribe>
+            <post>servicemix-users@geronimo.apache.org</post>
+            <archive>http://www.nabble.com/ServiceMix---User-f12050.html</archive>
+            <otherArchives>
+                <otherArchive>http://dir.gmane.org/gmane.comp.java.servicemix.user</otherArchive>
+                <otherArchive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-users/</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>ServiceMix SCM List</name>
+            <subscribe>servicemix-commits-subscribe@geronimo.apache.org</subscribe>
+            <unsubscribe>servicemix-commits-unsubscribe@geronimo.apache.org</unsubscribe>
+            <post>servicemix-commits@geronimo.apache.org</post>
+            <archive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-commits/</archive>
+        </mailingList>
+    </mailingLists>
+
+    <developers>
+        <developer>
+            <id>rajdavies</id>
+            <name>Rob Davies</name>
+            <email>rajdavies@gmail.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>jstrachan</id>
+            <name>James Strachan</name>
+            <email>jstrachan@logicblaze.com</email>
+            <organization>LogicBlaze</organization>
+            <organizationUrl>http://www.logicblaze.com/</organizationUrl>
+        </developer>
+        <developer>
+            <id>chirino</id>
+            <name>Hiram Chirino</name>
+            <email>hiram@logicblaze.com</email>
+            <organization>LogicBlaze</organization>
+            <organizationUrl>http://www.logicblaze.com/</organizationUrl>
+        </developer>
+        <developer>
+            <id>dandiep</id>
+            <name>Dan Diephouse</name>
+            <email>dandiep@codehaus.org</email>
+            <organization>dandiep</organization>
+        </developer>
+        <developer>
+            <id>pdodds</id>
+            <name>Philip Dodds</name>
+            <email>philip.dodds@gmail.com</email>
+            <organization>Five Clouds</organization>
+        </developer>
+        <developer>
+            <id>jlim</id>
+            <name>Jonas Lim</name>
+            <email>jlim@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>ffang</id>
+            <name>Freeman Fang</name>
+            <email>freeman.fang@gmail.com</email>
+            <organization>IONA</organization>
+        </developer>
+        <developer>
+            <id>foconer</id>
+            <name>Frederick Oconer</name>
+            <email>foconer@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>jgapuz</id>
+            <name>Joseph Gapuz</name>
+            <email>jgapuz@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>pvillacorta</id>
+            <name>Patrick Villacorta</name>
+            <email>pvillacorta@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>dflores</id>
+            <name>Darwin Flores</name>
+            <email>dflores@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>myap</id>
+            <name>Merwin Yap</name>
+            <email>myap@exist.com</email>
+            <organization>Exist Labs</organization>
+        </developer>
+        <developer>
+            <id>gnt</id>
+            <name>Guillaume Nodet</name>
+            <email>gnodet@logicblaze.com</email>
+            <organization>LogicBlaze</organization>
+            <organizationUrl>http://www.logicblaze.com/</organizationUrl>
+            <timezone>+1</timezone>
+        </developer>
+        <developer>
+            <id>gastaldi</id>
+            <name>George Gastaldi</name>
+            <email>gastaldi@apache.org</email>
+        </developer>
+        <developer>
+            <id>lhein</id>
+            <name>Lars Heinemann</name>
+            <email>lhein@apache.org</email>
+            <organization>Compart Systemhaus GmbH</organization>
+            <organizationUrl>http://www.compart.net/</organizationUrl>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/servicemix-pom/trunk</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/servicemix-pom/trunk</developerConnection>
+        <url>http://svn.apache.org/viewcvs.cgi/servicemix/servicemix-pom/trunk</url>
+    </scm>
+
+</project>
