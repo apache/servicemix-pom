@@ -192,10 +192,6 @@
             <name>Apache Development Snapshot Repository</name>
             <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</url>
         </snapshotRepository>
-        <site>
-            <id>servicemix</id>
-            <url>scpexe://people.apache.org/www/servicemix.apache.org/dist/servicemix-${version}/site</url>
-        </site>
     </distributionManagement>
 
 </project>
