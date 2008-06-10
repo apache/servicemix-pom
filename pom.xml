@@ -24,14 +24,14 @@
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>1</version>
+        <version>4</version>
     </parent>
 
     <groupId>org.apache.servicemix</groupId>
     <artifactId>servicemix-pom</artifactId>
     <packaging>pom</packaging>
     <name>ServiceMix POM</name>
-    <version>1.1-SNAPSHOT</version>
+    <version>2-SNAPSHOT</version>
 
     <description>
     This pom provides project information that is common to all ServiceMix branches.
@@ -48,32 +48,32 @@
     <mailingLists>
         <mailingList>
             <name>ServiceMix Developer List</name>
-            <subscribe>servicemix-dev-subscribe@geronimo.apache.org</subscribe>
-            <unsubscribe>servicemix-dev-unsubscribe@geronimo.apache.org</unsubscribe>
-            <post>servicemix-dev@geronimo.apache.org</post>
-            <archive>http://www.nabble.com/ServiceMix---Dev-f12051.html</archive>
+            <subscribe>dev-subscribe@servicemix.apache.org</subscribe>
+            <unsubscribe>dev-unsubscribe@servicemix.apache.org</unsubscribe>
+            <post>dev@servicemix.apache.org</post>
+            <archive>http://servicemix.apache.org/discussion-forums.html#nabble-f12051</archive>
             <otherArchives>
                 <otherArchive>http://dir.gmane.org/gmane.comp.java.servicemix.devel</otherArchive>
-                <otherArchive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-dev/</otherArchive>
+                <otherArchive>http://mail-archives.apache.org/mod_mbox/servicemix-dev/</otherArchive>
             </otherArchives>
         </mailingList>
         <mailingList>
             <name>ServiceMix User List</name>
-            <subscribe>servicemix-users-subscribe@geronimo.apache.org</subscribe>
-            <unsubscribe>servicemix-users-unsubscribe@geronimo.apache.org</unsubscribe>
-            <post>servicemix-users@geronimo.apache.org</post>
-            <archive>http://www.nabble.com/ServiceMix---User-f12050.html</archive>
+            <subscribe>users-subscribe@servicemix.apache.org</subscribe>
+            <unsubscribe>users-unsubscribe@servicemix.apache.org</unsubscribe>
+            <post>users@servicemix.apache.org</post>
+            <archive>http://servicemix.apache.org/discussion-forums.html#nabble-f12050</archive>
             <otherArchives>
                 <otherArchive>http://dir.gmane.org/gmane.comp.java.servicemix.user</otherArchive>
-                <otherArchive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-users/</otherArchive>
+                <otherArchive>http://mail-archives.apache.org/mod_mbox/servicemix-users/</otherArchive>
             </otherArchives>
         </mailingList>
         <mailingList>
             <name>ServiceMix SCM List</name>
-            <subscribe>servicemix-commits-subscribe@geronimo.apache.org</subscribe>
-            <unsubscribe>servicemix-commits-unsubscribe@geronimo.apache.org</unsubscribe>
-            <post>servicemix-commits@geronimo.apache.org</post>
-            <archive>http://mail-archives.apache.org/mod_mbox/geronimo-servicemix-commits/</archive>
+            <subscribe>commits-subscribe@servicemix.apache.org</subscribe>
+            <unsubscribe>commits-unsubscribe@servicemix.apache.org</unsubscribe>
+            <post>commits@servicemix.apache.org</post>
+            <archive>http://mail-archives.apache.org/mod_mbox/servicemix-commits/</archive>
         </mailingList>
     </mailingLists>
 
@@ -153,9 +153,9 @@
             <organization>Exist Labs</organization>
         </developer>
         <developer>
-            <id>gnt</id>
+            <id>gnodet</id>
             <name>Guillaume Nodet</name>
-            <email>gnodet@logicblaze.com</email>
+            <email>gnodet@apache.com</email>
             <organization>LogicBlaze</organization>
             <organizationUrl>http://www.logicblaze.com/</organizationUrl>
             <timezone>+1</timezone>
