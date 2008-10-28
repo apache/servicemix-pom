@@ -180,11 +180,6 @@
   </scm>
   
   <distributionManagement>
-    <repository>
-      <id>servicemix</id>
-      <name>Apache Release Distribution Repository</name>
-      <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
-    </repository>
     <snapshotRepository>
       <id>apache.snapshots</id>
       <name>Apache Development Snapshot Repository</name>
@@ -260,6 +255,13 @@
           </plugin>
         </plugins>
       </build>
+      <distributionManagement>
+        <repository>
+          <id>servicemix</id>
+          <name>Apache Release Distribution Repository</name>
+          <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
+        </repository>
+      </distributionManagement>
     </profile>
   </profiles>
 </project>
