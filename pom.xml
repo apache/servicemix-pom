@@ -171,6 +171,15 @@
       <organizationUrl>http://www.compart.net/</organizationUrl>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>jbonofre</id>
+      <name>Jean-Baptiste Onofre</name>
+      <email>jbonofre@apache.org</email>
+      <url>http://www.nanthrax.net</url>
+      <organization>Fimasys</organization>
+      <organizationUrl>http://www.fimasys.com</organizationUrl>
+      <timezone>+1</timezone>
+    </developer>
   </developers>
   
   <scm>
@@ -179,38 +188,34 @@
     <url>http://svn.apache.org/viewcvs.cgi/servicemix/servicemix-pom/trunk</url>
   </scm>
   
-  <distributionManagement>
-    <snapshotRepository>
-      <id>apache.snapshots</id>
-      <name>Apache Development Snapshot Repository</name>
-      <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</url>
-    </snapshotRepository>
-  </distributionManagement>
-  
   <repositories>
     <repository>
-      <id>apache-snapshots</id>
-      <name>Apache Snapshot repository</name>
-      <url>http://people.apache.org/repo/m2-snapshot-repository</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+        <id>servicemix.m2</id>
+        <name>Apache ServiceMix Maven2 Repository</name>
+        <url>http://svn.apache.org/repos/asf/servicemix/m2-repo/</url>
+    </repository>
+    <repository>
+        <id>apache.incubating</id>
+        <name>Apache Incubating Repository</name>
+        <url>http://people.apache.org/repo/m2-incubating-repository</url>
+    </repository>
+    <repository>
+        <id>codehaus</id>
+        <name>Codehaus Maven Repository</name>
+        <url>http://repository.codehaus.org</url>
+    </repository>
+    <repository>
+        <id>java.net</id>
+        <name>Sun JavaNet Maven Repository</name>
+        <url>http://download.java.net/maven/1</url>
+        <layout>legacy</layout>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
-      <id>apache-snapshots</id>
-      <name>Apache Snapshot repository</name>
-      <url>http://people.apache.org/repo/m2-snapshot-repository</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+        <id>apache.snapshots</id>
+        <name>Apache Snapshots Maven Repository</name>
+        <url>http://repository.apache.org/snapshots</url>
     </pluginRepository>
   </pluginRepositories>
   
@@ -255,13 +260,6 @@
           </plugin>
         </plugins>
       </build>
-      <distributionManagement>
-        <repository>
-          <id>servicemix</id>
-          <name>Apache Release Distribution Repository</name>
-          <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
-        </repository>
-      </distributionManagement>
     </profile>
   </profiles>
 </project>
