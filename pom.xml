@@ -236,5 +236,25 @@
         </plugins>
       </build>
     </profile>
+    <!-- profile to allow overriding the deployment repository to avoid connection problems during release -->
+    <profile>
+      <activation>
+        <property>
+          <name>deploy.altRepository</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <inherited>true</inherited>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <configuration>
+              <altDeploymentRepository>${deploy.altRepository}</altDeploymentRepository>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
   </profiles>
 </project>
