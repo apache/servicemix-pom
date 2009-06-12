@@ -218,6 +218,23 @@
         <url>http://repository.apache.org/snapshots</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-remote-resources-plugin</artifactId>
+          <dependencies>
+              <dependency>
+                  <groupId>org.apache.servicemix</groupId>
+                  <artifactId>servicemix-build</artifactId>
+                  <version>1.0</version>
+              </dependency>
+          </dependencies>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   
   <profiles>
     <profile>
