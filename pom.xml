@@ -182,6 +182,14 @@
     </developer>
   </developers>
   
+  <pluginRepositories>
+    <pluginRepository>
+        <id>apache.snapshots</id>
+        <name>Apache Snapshots Maven Repository</name>
+        <url>http://repository.apache.org/snapshots</url>
+    </pluginRepository>
+  </pluginRepositories>
+  
   <scm>
     <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/servicemix-pom/trunk</connection>
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/servicemix-pom/trunk</developerConnection>
