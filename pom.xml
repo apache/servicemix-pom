@@ -187,21 +187,6 @@
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/servicemix-pom/trunk</developerConnection>
     <url>http://svn.apache.org/viewcvs.cgi/servicemix/servicemix-pom/trunk</url>
   </scm>
-  
-  <repositories>
-    <repository>
-        <id>codehaus</id>
-        <name>Codehaus Maven Repository</name>
-        <url>http://repository.codehaus.org</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-        <id>apache.snapshots</id>
-        <name>Apache Snapshots Maven Repository</name>
-        <url>http://repository.apache.org/snapshots</url>
-    </pluginRepository>
-  </pluginRepositories>
 
   <build>
     <pluginManagement>
