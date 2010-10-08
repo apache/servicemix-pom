@@ -167,8 +167,6 @@
       <id>lhein</id>
       <name>Lars Heinemann</name>
       <email>lhein@apache.org</email>
-      <organization>Compart AG</organization>
-      <organizationUrl>http://www.compart.net/</organizationUrl>
       <timezone>+1</timezone>
     </developer>
     <developer>
