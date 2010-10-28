@@ -79,22 +79,23 @@
     <developer>
       <id>rajdavies</id>
       <name>Rob Davies</name>
-      <email>rajdavies@gmail.com</email>
-      <organization>IONA</organization>
+      <email>rajdavies@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
     </developer>
     <developer>
       <id>jstrachan</id>
       <name>James Strachan</name>
-      <email>jstrachan@logicblaze.com</email>
-      <organization>LogicBlaze</organization>
-      <organizationUrl>IONA</organizationUrl>
+      <email>jstrachan@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
     </developer>
     <developer>
       <id>chirino</id>
       <name>Hiram Chirino</name>
-      <email>hiram@logicblaze.com</email>
-      <organization>LogicBlaze</organization>
-      <organizationUrl>IONA</organizationUrl>
+      <email>chirino@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
     </developer>
     <developer>
       <id>dandiep</id>
@@ -118,7 +119,8 @@
       <id>ffang</id>
       <name>Freeman Fang</name>
       <email>freeman.fang@gmail.com</email>
-      <organization>IONA</organization>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
     </developer>
     <developer>
       <id>foconer</id>
@@ -153,9 +155,9 @@
     <developer>
       <id>gnodet</id>
       <name>Guillaume Nodet</name>
-      <email>gnodet@apache.com</email>
-      <organization>LogicBlaze</organization>
-      <organizationUrl>IONA</organizationUrl>
+      <email>gnodet@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
       <timezone>+1</timezone>
     </developer>
     <developer>
@@ -167,6 +169,8 @@
       <id>lhein</id>
       <name>Lars Heinemann</name>
       <email>lhein@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
       <timezone>+1</timezone>
     </developer>
     <developer>
@@ -178,13 +182,27 @@
       <organizationUrl>http://www.fimasys.com</organizationUrl>
       <timezone>+1</timezone>
     </developer>
+    <developer>
+      <id>gertv</id>
+      <name>Gert Vanthienen</name>
+      <email>gertv@apache.org</email>
+      <organization>FuseSource</organization>
+      <organizationUrl>http://www.fusesource.com/</organizationUrl>
+      <timezone>+1</timezone>
+    </developer>    
   </developers>
   
   <pluginRepositories>
     <pluginRepository>
-        <id>apache.snapshots</id>
-        <name>Apache Snapshots Maven Repository</name>
-        <url>http://repository.apache.org/snapshots</url>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshots Maven Repository</name>
+      <url>http://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </pluginRepository>
   </pluginRepositories>
   
